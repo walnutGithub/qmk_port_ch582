@@ -35,7 +35,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     {                                                        \
         B4, B5, B6, B7, B9, B8, B17, B16, B15, B14, B19, B18 \
     }
-// #define DYNAMIC_KEYMAP_LAYER_COUNT 10
+#define DYNAMIC_KEYMAP_LAYER_COUNT 3
 
 #define DIODE_DIRECTION  COL2ROW
 #define BOOTMAGIC_ROW    0
@@ -44,18 +44,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define HOLD_ON_OTHER_KEY_PRESS
 
 #define EARLY_INIT_PERFORM_BOOTLOADER_JUMP FALSE
-
-#ifdef ENCODER_ENABLE
-#define ENCODERS_PAD_A \
-    {                  \
-        B5             \
-    }
-#define ENCODERS_PAD_B \
-    {                  \
-        B6             \
-    }
-#define ENCODER_RESOLUTION 4
-#endif
 
 #define WS2812_EN_PIN   B0
 #define WS2812_EN_LEVEL 1
