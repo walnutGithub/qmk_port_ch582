@@ -38,8 +38,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 	K700, K701, K702, K703, \
 	K800, K801, K802, K803, \
 	K900, K901, K902, K903, \
-	K100, K101, K102, K103, \
-	K110, K111, K112, K113  \
+	K1000, K1001, K1002, K1003, \
+	K1100, K1101, K1102, K1103  \
 ) \
 { \
     { K000, K001, K002, K003 }, \
@@ -52,6 +52,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     { KC_NO, K701, K702, K703 }, \
     { KC_NO, K801, K802, K803 }, \
     { K900, KC_NO, K902, K903 }, \
-    { K100, K101, KC_NO, K103 }, \
-    { K110, K111, K112, K113 }  \
+    { K1000, K1001, KC_NO, K1003 }, \
+    { K1100, K1101, K1102, K1103 }  \
 }
