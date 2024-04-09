@@ -2,6 +2,28 @@
   "name": "mk42",
   "vendorId": "0xCAFE",
   "productId": "0x0B9F",
+  "customKeycodes": [
+    {
+      "name": "USB",
+      "title": "USB MODE",
+      "shortName": "USB"
+    },
+    {
+      "name": "BLE1",
+      "title": "Tap = Use BLE slot 1, Hold = Clean BLE slot 1 binding",
+      "shortName": "BLE1"
+    },
+    {
+      "name": "BLE2",
+      "title": "Tap = Use BLE slot 2, Hold = Clean BLE slot 2 binding",
+      "shortName": "BLE2"
+    },
+    {
+      "name": "BLE3",
+      "title": "Tap = Use BLE slot 3, Hold = Clean BLE slot 3 binding",
+      "shortName": "BLE3"
+    }
+  ],
   "matrix": {
     "rows": 4,
     "cols": 12
