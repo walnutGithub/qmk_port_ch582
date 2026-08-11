@@ -11,10 +11,11 @@ on:
     inputs:
       keyboard:
         description: "cracker42"
+        default: 'cracker42'
         required: true
         type: string
       keymap:
-        description: "cracker42"
+        description: "default"
         default: "default"
         required: true
         type: string
