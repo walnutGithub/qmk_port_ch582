@@ -35,3 +35,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     { K200, K201, K202, K203,K204, K205, K206, K207,K208, K209, K210, K211,K212 }, \
     { K300, K301, K302, K303,K304, K305, K306, K307,K308, K309, K310, K311,K312 }  \
 }
+
+extern const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS];
