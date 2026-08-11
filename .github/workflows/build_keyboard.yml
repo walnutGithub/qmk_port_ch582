@@ -10,11 +10,11 @@ on:
   workflow_dispatch:
     inputs:
       keyboard:
-        description: "Keyboard name"
+        description: "cracker42"
         required: true
         type: string
       keymap:
-        description: "Specified keymap"
+        description: "cracker42"
         default: "default"
         required: true
         type: string
