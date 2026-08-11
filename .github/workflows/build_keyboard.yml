@@ -29,9 +29,11 @@ jobs:
     # You can convert this to a matrix build if you need cross-platform coverage.
     # See: https://docs.github.com/en/free-pro-team@latest/actions/learn-github-actions/managing-complex-workflows#using-a-build-matrix
     runs-on: ubuntu-latest
+    env:
+      ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
 
     steps:
-      - uses: actions/checkout@v4.2.2
+      - uses: actions/checkout@v4
 
       - name: Fetch all
         run: git fetch
@@ -55,13 +57,13 @@ jobs:
         run: echo "git_ver=$(git describe --always --dirty)" >> $GITHUB_ENV
 
       - name: UF2 Firmware (${{inputs.keyboard}})
-        uses: actions/upload-artifact@v4.2.2
+        uses: actions/upload-artifact@v4
         with:
           name: ${{inputs.keyboard}}.uf2
           path: ${{inputs.keyboard}}_upgrade_${{ env.git_ver }}.uf2
 
       - name: Hex Firmware (${{inputs.keyboard}})
-        uses: actions/upload-artifact@v4.2.2
+        uses: actions/upload-artifact@v4
         with:
           name: ${{inputs.keyboard}}.hex
           path: ${{inputs.keyboard}}_factory_${{ env.git_ver }}.hex
