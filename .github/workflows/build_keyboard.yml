@@ -14,7 +14,7 @@ on:
         required: true
         type: string
       keymap:
-        description: "default"
+        description: "cracker42"
         default: "default"
         required: true
         type: string
