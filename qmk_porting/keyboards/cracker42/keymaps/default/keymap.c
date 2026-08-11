@@ -17,7 +17,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include QMK_KEYBOARD_H
 #include "extra_keycode.h"
-#include "cracker42.h"
 
 enum unicode_names {
     la = NEW_SAFE_RANGE,
