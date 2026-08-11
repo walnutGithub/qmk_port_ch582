@@ -1,7 +1,7 @@
 {
   "name": "cracker42",
-  "vendorId": "0xDBFE",
-  "productId": "0x0C93",
+  "vendorId": "0xCAFE",
+  "productId": "0x0B92",
   "matrix": {
     "rows": 4,
     "cols": 12
