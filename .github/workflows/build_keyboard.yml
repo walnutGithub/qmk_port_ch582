@@ -10,8 +10,8 @@ on:
   workflow_dispatch:
     inputs:
       keyboard:
-        description: "cracker42"
-        default: 'cracker42'
+        description: "poseidon43"
+        default: 'poseidon43'
         required: true
         type: string
       keymap:
